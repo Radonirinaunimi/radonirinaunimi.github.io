@@ -189,22 +189,22 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'Hyperparameter Optimisation in Deep Learning from Ensemble Methods: Applications to Proton Structure',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: 'arXiv:2410.16248',
+      authors: 'Juan Cruz-Martinez, Aron Jansen, Gijs van Oord, Tanjona R. Rabemananjara, Carlos M. R. Rocha, Juan Rojo, Roy Stegeman',
+      link: 'https://arxiv.org/abs/2410.16248',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Deep learning models are defined in terms of a large number of hyperparameters, such as network architectures and optimiser settings. These hyperparameters must be determined separately from the model parameters such as network weights, and are often fixed by ad-hoc methods or by manual inspection of the results. An algorithmic, objective determination of hyperparameters demands the introduction of dedicated target metrics, different from those adopted for the model training. Here we present a new approach to the automated determination of hyperparameters in deep learning models based on statistical estimators constructed from an ensemble of models sampling the underlying  probability distribution in model space. This strategy requires the simultaneous parallel training of up to several hundreds of models and can be effectively implemented by deploying hardware accelerators such as GPUs. As a proof-of-concept, we apply this method to the determination of the partonic substructure of the proton within the NNPDF framework and demonstrate the robustness of the resultant model uncertainty estimates. The new GPU-optimised NNPDF code results in a speed-up of up to two orders of magnitude, a stabilisation of the memory requirements, and a reduction in energy consumption of up to 90\% as compared to sequential CPU-based model training. While focusing on proton structure, our method is fully general and is applicable to any deep learning problem relying on hyperparameter optimisation for an ensemble of models.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'Neutrino Structure Functions from GeV to EeV Energies',
+      conferenceName: '',
+      journalName: 'Journal of High Energy Physics',
+      authors: 'Alessandro Candido, Alfonso Garcia, Giacomo Magni, Tanjona Rabemananjara, Juan Rojo, Roy Stegema',
+      link: 'https://link.springer.com/article/10.1007/JHEP05(2023)149',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'The interpretation of present and future neutrino experiments requires accurate theoretical predictions for neutrino-nucleus scattering rates. Neutrino structure functions can be reliably evaluated in the deep-inelastic scattering regime within the perturbative QCD (pQCD) framework. At low momentum transfers (Q2 ≤ few GeV2), inelastic structure functions are however affected by large uncertainties which distort event rate predictions for neutrino energies Eν​up to the TeV scale. Here we present a determination of neutrino inelastic structure functions valid for the complete range of energies relevant for phenomenology, from the GeV region entering oscillation analyses to the multi-EeV region accessible at neutrino telescopes. Our NNSFν approach combines a machine-learning parametrisation of experimental data with pQCD calculations based on state-of-the-art analyses of proton and nuclear parton distributions (PDFs). We compare our determination to other calculations, in particular to the popular Bodek-Yang model. We provide updated predictions for inclusive cross sections for a range of energies and target nuclei, including those relevant for LHC far-forward neutrino experiments such as FASERν, SND@LHC, and the Forward Physics Facility. The NNSFν determination is made available as fast interpolation LHAPDF grids, and can be accessed both through an independent driver code and directly interfaced to neutrino event generators such as GENIE.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
