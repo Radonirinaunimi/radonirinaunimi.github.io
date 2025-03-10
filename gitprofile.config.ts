@@ -12,7 +12,7 @@ const CONFIG = {
       mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 10, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -25,9 +25,10 @@ const CONFIG = {
           'NNPDF/pineappl',
           'NNPDF/nnusf',
           'NNPDF/yadism',
+          'N3PDF/ganpdfs',
+          'N3PDF/pycompressor',
           'NNPDF/HpT-N3LO',
-          'Radonirinaunimi/cmpx-spfunc',
-          'Radonirinaunimi/dotfiles',
+          'NNPDF/HpT-MON',
         ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
@@ -36,11 +37,11 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Ensemble ML Hyperoptimisation with Hardware Acceleration',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://i.postimg.cc/QMzMrrSS/Screenshot-2025-03-10-at-22-54-41.png',
           link: 'https://example.com',
         },
         {
@@ -48,42 +49,43 @@ const CONFIG = {
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://i.postimg.cc/G2smLS5R/Screenshot-2025-03-10-at-22-52-37.png',
+          link: 'https://example.com',
+        },
+        {
+          title: 'Ensemble ML Hyperoptimisation with Hardware Acceleration',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          imageUrl:
+            'https://i.postimg.cc/Ls5s7skn/Screenshot-2025-03-10-at-22-55-39.png',
+          link: 'https://example.com',
+        },
+        {
+          title: 'Project Name',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          imageUrl:
+            'https://i.postimg.cc/rwQmQ4rB/Screenshot-2025-03-10-at-22-57-03.png',
           link: 'https://example.com',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Tanjona R.',
     description: '',
     imageURL: '',
   },
   social: {
     linkedin: 'Tanjona R. Rabemananjara',
     twitter: '@Tanjona_Phys',
-    // mastodon: 'arifszn@mastodon.social',
-    // researchGate: '',
-    // facebook: '',
-    // instagram: '',
-    // reddit: '',
-    // threads: '',
-    // youtube: '', // example: 'pewdiepie'
-    // udemy: '',
-    // dribbble: '',
-    // behance: '',
-    // medium: 'arifszn',
-    // dev: 'arifszn',
-    // stackoverflow: '', // example: '1/jeff-atwood'
-    // skype: '',
-    // telegram: '',
     website: 'https://radonirinaunimi.github.io',
     phone: '',
-    email: 't.rabemananjara@nikhef.nl',
+    email: 'rrabeman@nikhef.nl',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'radonirinaunimi.github.io', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Rust',
@@ -93,10 +95,10 @@ const CONFIG = {
     'Fortran',
     'Julia',
     'R',
-    'Mathematica',
-    'CSS',
-    'HTML',
-    'LaTeX',
+    'Azure',
+    'Docker',
+    'MongoDB',
+    'CUDA',
     'Tensorflow',
     'Keras',
     'Pytorch',
@@ -222,7 +224,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi', // 'lofi'
+    defaultTheme: 'dark', // 'lofi'
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -283,13 +285,6 @@ const CONFIG = {
       '--rounded-btn': '3rem',
     },
   },
-
-  // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
 
   enablePWA: true,
 };
