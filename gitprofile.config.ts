@@ -8,7 +8,7 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Github Projects',
+      header: 'Sample of Github Projects',
       mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
@@ -33,40 +33,41 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Selected Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
           title: 'Ensemble ML Hyperoptimisation with Hardware Acceleration',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Harnessing the full power of hardware acceleration such as GPUs to hyperoptimise ML models using ensemble-based metrics with paralle exploration of the hyperparameter space using MongoDB.',
           imageUrl:
             'https://i.postimg.cc/QMzMrrSS/Screenshot-2025-03-10-at-22-54-41.png',
-          link: 'https://example.com',
+          link: 'https://arxiv.org/abs/2410.16248',
         },
         {
-          title: 'Project Name',
+          title: 'Neutrino Structure Functions from Neural Network methods',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'A machine learning framework that povides predictions for neutrino inelastic structure functions valid for the complete range of energies relevant for phenomenology involving neutrino experiments.',
           imageUrl:
             'https://i.postimg.cc/G2smLS5R/Screenshot-2025-03-10-at-22-52-37.png',
-          link: 'https://example.com',
+          link: 'https://doi.org/10.1007/JHEP05(2023)149',
         },
         {
-          title: 'Ensemble ML Hyperoptimisation with Hardware Acceleration',
+          title:
+            'Generative Adversarial Networks (GANs) for Parton Distribution Functions',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'A framework to bootstrap Monte Carlo (MC) based Parton Distribution Functions (PDFs) using generative adversarial techniques by enhancing the statistics of the prior PDF through generation of artifical replicas.',
           imageUrl:
             'https://i.postimg.cc/Ls5s7skn/Screenshot-2025-03-10-at-22-55-39.png',
-          link: 'https://example.com',
+          link: 'https://doi.org/10.1140/epjc/s10052-021-09338-8',
         },
         {
-          title: 'Project Name',
+          title: 'Compression algorithm for Parton Distribution Functions',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'A compression algorithm for Parton Distribution Functions (PDFs) that extracts from an initial set of Monte Carlo (MC) replicas a subset that most truthfully reproduces the statistical properties of the prior.',
           imageUrl:
             'https://i.postimg.cc/rwQmQ4rB/Screenshot-2025-03-10-at-22-57-03.png',
-          link: 'https://example.com',
+          link: 'https://doi.org/10.1140/epjc/s10052-021-09338-8',
         },
       ],
     },
@@ -84,7 +85,7 @@ const CONFIG = {
     email: 'rrabeman@nikhef.nl',
   },
   resume: {
-    fileUrl: 'radonirinaunimi.github.io', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://tanjona-cv.tiiny.site', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Rust',
